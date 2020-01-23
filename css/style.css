@@ -1,0 +1,71 @@
+/* globals  */
+body {
+  font-family: Arial;
+}
+
+.contenedor {
+  max-width: 80%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.5;
+}
+
+/* header  */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 8rem;
+  padding: 1rem 0;
+  
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  margin-right: 15px;
+  
+  
+}
+header a {
+   color: black;
+   font-size: 1.2rem;
+ }
+
+ header .c-blue {
+   color: #1F3F68;
+   font-weight: bold;
+ }
+
+ /* banner  */
+
+ .baner {
+   background-image: url(../img/banner.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 250px;
+ }
